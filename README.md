@@ -75,11 +75,11 @@ About ~1000 civilians are killed each year by law enforcement officers in the Un
 #### Preprocessing:
 * Since the data provided by the mapping police violence requires some data cleaning and munging, pandas and numpy will be used for data preprocessing. For attributes with missing values such as age and gender, depending on the variable importance/ information gain provided by the attribute, either missing value imputation will be performed or the record will be dropped. If the race associated with a victim is "Unknown" or "null", the record will be dropped from the analysis, and the corresponding data loss will be reported.
 
-### Exploratory Analysis:
+#### Exploratory Analysis:
 * In order to answer the aforementioned research questions, an exploratory analysis of the underlying mapping violence data, census data and UCR data will be performed at various levels of aggregtion. In addition to population estimates that are widely used as a benchmark to identify racial disparities, I will also be using the arrests data as an alternative benchmark. The idea of population estimates assumes that every person within each group is equally likely to be exposed to an encounter which may not necessarily be an exact representation, as mentioned in this [study](https://journals.sagepub.com/doi/full/10.1177/1948550618775108) by Cesario et al.  Pandas will be predominantly used to perform the aggregations and the subsequent analysis, and for the visual analysis, matplotlib and searborn will be used.
 
-### Statistical significance:
-* To compare the proportion of arrests/population vs. proportion of victims, a chi-square goodness-of-fit test will be performed to see if the expected and observed frequencies based on the proportions are statistically different. A significant p-value would likely indicate racial bias in the police killings. The [scipy.stats.chisquare](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chisquare.html) function from the scipy library will be used to conduct the test.
+#### Statistical significance:
+* To compare the proportion of arrests/population vs. proportion of victims, a chi-square goodness-of-fit test will be performed to see if the expected and observed frequencies for the racial groups are statistically different. Chi-Square goodness of fit test is a non-parametric test that is used to find out how the observed value of a given phenomena is significantly different from the expected value. A significant p-value would likely indicate racial bias in the police killings. The [scipy.stats.chisquare](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chisquare.html) function from the scipy library will be used to conduct the test.
 
 
 ## Licenses:
