@@ -1,4 +1,6 @@
-# DATA 512 Final project - Exploring racial disparities in police killings in the US
+# Exploring racial disparities in police killings in the US
+
+Prepared as a part of the course - DATA 512 Human-Centered Data Science
 
 Pradeep Prabhakar
 MSDS, University of Washington
