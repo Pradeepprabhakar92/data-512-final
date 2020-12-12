@@ -67,7 +67,7 @@ While the license for the datasets are not explicitly mentioned on the website, 
 
 ## Key Findings
 
-* Asians are killed by the police at a rate 1.3 times higher than expected and for Blacks it is 1.3 times higher
+* Asians are killed by the police at a rate 1.7 times higher than expected, and for Blacks it is 1.3 times higher
 
 ![Actual vs expected ratio of police killings across races](output/q1_actual_vs_expected_ratio.png)
 
