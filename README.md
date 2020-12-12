@@ -2,8 +2,8 @@
 
 Prepared as a part of the course - DATA 512 Human-Centered Data Science
 
-Pradeep Prabhakar
-MSDS, University of Washington
+Pradeep Prabhakar\
+MSDS, University of Washington\
 prdp1992@uw.edu
 
 
